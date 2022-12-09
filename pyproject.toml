@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "private-codex"
+version = "0.1.0"
+description = "Webapp to manage notes and diary entries."
+authors = ["AngelD-F <32184965+AngelD-F@users.noreply.github.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "private_codex"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
